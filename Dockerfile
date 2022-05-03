@@ -1,12 +1,15 @@
-# Tags: latest, 9.3.12-debian-10-r11, 9.3.12, 9-debian-10, 9
+# Tags: latest, 9.3.12-debian-10-r12, 9.3.12, 9-debian-10, 9
 FROM bitnami/drupal:latest
-FROM bitnami/drupal:9.3.12-debian-10-r11
+FROM bitnami/drupal:9.3.12-debian-10-r12
 FROM bitnami/drupal:9.3.12
 FROM bitnami/drupal:9-debian-10
 FROM bitnami/drupal:9
 
 # Tags: _
 FROM bitnami/drupal:_
+
+# Tags: 9.3.12-debian-10-r11
+FROM bitnami/drupal:9.3.12-debian-10-r11
 
 # Tags: 9.3.12-debian-10-r10
 FROM bitnami/drupal:9.3.12-debian-10-r10
