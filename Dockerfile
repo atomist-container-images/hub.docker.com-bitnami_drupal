@@ -1,12 +1,36 @@
-# Tags: latest, 9.3.12-debian-10-r12, 9.3.12, 9-debian-10, 9
+# Tags: latest, 9.3.12-debian-10-r20, 9.3.12, 9-debian-10, 9
 FROM bitnami/drupal:latest
-FROM bitnami/drupal:9.3.12-debian-10-r12
+FROM bitnami/drupal:9.3.12-debian-10-r20
 FROM bitnami/drupal:9.3.12
 FROM bitnami/drupal:9-debian-10
 FROM bitnami/drupal:9
 
 # Tags: _
 FROM bitnami/drupal:_
+
+# Tags: 9.3.12-debian-10-r19
+FROM bitnami/drupal:9.3.12-debian-10-r19
+
+# Tags: 9.3.12-debian-10-r18
+FROM bitnami/drupal:9.3.12-debian-10-r18
+
+# Tags: 9.3.12-debian-10-r17
+FROM bitnami/drupal:9.3.12-debian-10-r17
+
+# Tags: 9.3.12-debian-10-r16
+FROM bitnami/drupal:9.3.12-debian-10-r16
+
+# Tags: 9.3.12-debian-10-r15
+FROM bitnami/drupal:9.3.12-debian-10-r15
+
+# Tags: 9.3.12-debian-10-r14
+FROM bitnami/drupal:9.3.12-debian-10-r14
+
+# Tags: 9.3.12-debian-10-r13
+FROM bitnami/drupal:9.3.12-debian-10-r13
+
+# Tags: 9.3.12-debian-10-r12
+FROM bitnami/drupal:9.3.12-debian-10-r12
 
 # Tags: 9.3.12-debian-10-r11
 FROM bitnami/drupal:9.3.12-debian-10-r11
@@ -69,33 +93,3 @@ FROM bitnami/drupal:9.3.11-debian-10-r0
 # Tags: 9.3.9-debian-10-r22, 9.3.9
 FROM bitnami/drupal:9.3.9-debian-10-r22
 FROM bitnami/drupal:9.3.9
-
-# Tags: 9.3.9-debian-10-r21
-FROM bitnami/drupal:9.3.9-debian-10-r21
-
-# Tags: 9.3.9-debian-10-r20
-FROM bitnami/drupal:9.3.9-debian-10-r20
-
-# Tags: 9.3.9-debian-10-r19
-FROM bitnami/drupal:9.3.9-debian-10-r19
-
-# Tags: 9.3.9-debian-10-r18
-FROM bitnami/drupal:9.3.9-debian-10-r18
-
-# Tags: 9.3.9-debian-10-r17
-FROM bitnami/drupal:9.3.9-debian-10-r17
-
-# Tags: 9.3.9-debian-10-r16
-FROM bitnami/drupal:9.3.9-debian-10-r16
-
-# Tags: 9.3.9-debian-10-r15
-FROM bitnami/drupal:9.3.9-debian-10-r15
-
-# Tags: 9.3.9-debian-10-r14
-FROM bitnami/drupal:9.3.9-debian-10-r14
-
-# Tags: 9.3.9-debian-10-r13
-FROM bitnami/drupal:9.3.9-debian-10-r13
-
-# Tags: 9.3.9-debian-10-r12
-FROM bitnami/drupal:9.3.9-debian-10-r12
